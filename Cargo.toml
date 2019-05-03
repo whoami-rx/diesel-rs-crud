@@ -1,0 +1,10 @@
+[package]
+name = "diesel_rs_crud"
+version = "0.1.0"
+authors = ["RaR <whoami-rx>"]
+license = "MIT Or Apache-2.0"
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1.4.2", features = [ "sqlite"] }
+dotenv = "0.13.0"
